@@ -1,0 +1,21 @@
+console.log('welcome to tutorial 24');
+let today = new Date();
+let otherDate = new Date('8-4-2021 04:54:08');
+// otherDate = new Date('june 13 1976');
+// otherDate = new Date('06/16/1976');
+console.log(otherDate);
+let a;
+a = otherDate.getDay();
+a = otherDate.getDate();
+a = otherDate.getMinutes();
+a = otherDate.getHours();
+a = otherDate.getSeconds();
+a = otherDate.getTime();
+a = otherDate.getMilliseconds();
+a = otherDate.getMonth();
+console.log(a);
+
+otherDate.setMonth(8);
+otherDate.setFullYear(2020);
+otherDate.setHours(2);
+console.log(otherDate);
