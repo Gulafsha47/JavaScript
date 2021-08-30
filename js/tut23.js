@@ -1,0 +1,27 @@
+console.log('welcome to the tutorial 23');
+let x = 3;
+let y = 6;
+let z;
+z = x + y;
+z = x - y;
+z = x * y;
+z = x / y;
+z = Math;
+z = Math.PI;
+z = Math.E;
+z = Math.round(6.8);
+z = Math.ceil(6.8);
+z = Math.floor(5.3);
+z = Math.floor(-5.3);
+z = Math.abs(-5.2);
+z = Math.sqrt(64);
+z = Math.pow(2, 3);
+z = Math.min(2, 4, 89, 42);
+z = Math.max(2, 669, 89, 43);
+z = Math.random();
+// a = (0.1);
+// a100 = a * 100=(0.100);
+// a10_100 = 10 + a * (100 - 10);
+z = 100 * Math.random()
+z =Math.ceil( 50 +(100 - 50)* Math.random());
+console.log(z);
